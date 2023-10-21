@@ -606,8 +606,14 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.4092473983765, -1.5399968624115, 1.0414745807648, 1, },
 					},
 					{
-						materials = { "vehicle/train/br420/innen_90.mtl", },
-						mesh = "vehicle/train/br420/innen_1_modern_lod0.msh",
+						materials = { "vehicle/train/br420plus/innen.mtl", },
+						mesh = "vehicle/train/br420plus/innen_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br420plus/fenster.mtl", },
+						mesh = "vehicle/train/br420plus/innen_glas_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -1225,8 +1231,8 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.4092473983765, -1.5399968624115, 1.0414745807648, 1, },
 					},
 					{
-						materials = { "vehicle/train/br420/innen_90.mtl", },
-						mesh = "vehicle/train/br420/innen_1_lod0.msh",
+						materials = { "vehicle/train/br420plus/innen.mtl", },
+						mesh = "vehicle/train/br420plus/innen_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -2474,8 +2480,8 @@ return {
 			configs = {
                 {
 					axles = { "vehicle/train/br420/drehgestell/rad_lod0.msh", },
-					frontForwardParts = { 32 },
-                    backBackwardParts = { 33 },
+					frontForwardParts = { 33 },
+                    backBackwardParts = { 34 },
 					backForwardParts = { },
 					frontBackwardParts = { },
 				},

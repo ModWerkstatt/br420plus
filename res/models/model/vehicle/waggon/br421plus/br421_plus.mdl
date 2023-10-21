@@ -594,8 +594,14 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.4092473983765, -1.5399968624115, 1.0414745807648, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/br421/innen_90.mtl", },
-						mesh = "vehicle/waggon/br421/innen_modern_lod0.msh",
+						materials = { "vehicle/waggon/br421plus/innen.mtl", },
+						mesh = "vehicle/waggon/br421plus/innen_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br420plus/fenster.mtl", },
+						mesh = "vehicle/waggon/br421plus/innen_glas_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -1202,7 +1208,7 @@ return {
 					},
 					{
 						materials = { "vehicle/waggon/br421/innen_90.mtl", },
-						mesh = "vehicle/waggon/br421/innen_lod0.msh",
+						mesh = "vehicle/waggon/br421plus/innen_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
